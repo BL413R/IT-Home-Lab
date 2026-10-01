@@ -14,8 +14,6 @@ These home labs will be completed using this list of tools, which are all access
 
 As I further my endeavors, I will update this list with any other tools I begin to use, and the start date of me using them.
 
---------------------------------------------------------------------------------------------------------------------------------------------
-
 ## Projects
 - Virtual Office Network (Started 10/1/26)
 - System Info Reporter (Target 10/8/26)
