@@ -5,7 +5,7 @@ I aim to show that I am capable of connecting, testing, and troubleshooting thes
 
 ## Installing VirtualBox & Ubuntu Server
 
-I installed VirtualBox Version 7.2.20 from virtualbox.org, and encountered no issues.
+I installed VirtualBox Version 7.2.20 from [virtualbox.org](https://www.virtualbox.org), and encountered no issues.
 
 I downloaded the .iso file for Ubuntu 26.04.01 LTS and installed it in VirtualBox.
 The Ubuntu VM has 2048 MB of Base Memory, 2 Processors, and a 25.0 GB disk size.
