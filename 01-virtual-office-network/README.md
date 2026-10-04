@@ -67,12 +67,15 @@ network was correctly configured.
 First, I made sure to run the 'ip a' command on both machines to get their IPv4 addresses, and then performed a connection test using the 'ping' command.
 
 A 'ping' command from primary VM to secondary VM:
+
 <img width="526" height="279" alt="Screenshot 2026-10-02 152348" src="https://github.com/user-attachments/assets/483cefa4-4eb3-4ed0-91a8-fb53e83f872e" />
 
 A 'ping' command from secondary VM to primary VM:
+
 <img width="547" height="381" alt="Screenshot 2026-10-02 152330" src="https://github.com/user-attachments/assets/54b303bb-df4d-4ef3-bfc1-6ca33e5e1b37" />
 
 A 'ping' command from primary VM to 8.8.8.8:
+
 <img width="523" height="182" alt="Screenshot 2026-10-02 152440" src="https://github.com/user-attachments/assets/77894003-7be0-49db-acf7-70a6a0c1933a" />
 
 With my first two pings, I ensured that each machine could see each other and communicate with each other over OfficeNet.
