@@ -59,4 +59,7 @@ message, just like I did with the first machine, using 'sudo cp /etc/issue /etc/
 Finally, I replaced the second machine's login message with my custom message using the command 'sudo cp ~/MAIN/newloginmessage.txt
 /etc/issue', and both machines were completely set up with a custom message shown to the user before login.
 
-## Replacing OpenSSH login messages
+<img width="450" height="422" alt="Screenshot 2026-10-06 142029" src="https://github.com/user-attachments/assets/c2735388-ce56-40da-b938-fc469f4a3379" />
+
+(I know, what a weird message, right? Fear not! This is from the game series Warhammer 40,000, where there are people who choose to
+worship machines as gods. I promise that I do not worship machines, I'm just a hardcore nerd.)
