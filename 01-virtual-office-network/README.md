@@ -42,7 +42,7 @@ effect.
 
 One quick command, 'hostnamectl', allows me to see if I am successful.
 
-<img width="407" height="273" alt="Screenshot 2026-10-02 151220" src="https://github.com/user-attachments/assets/ab06405b-1c57-4ceead92-b33782477305" />
+<img width="407" height="273" alt="Screenshot 2026-10-02 151220" src="https://github.com/user-attachments/assets/ab06405b-1c57-4cee-ad92-b33782477305" />
 
 Success! The second virtual machine is now completely unique, and I am ready to move on to setting up the virtual office network.
 
@@ -61,7 +61,7 @@ I did not enable IPv6.
 
 I clicked apply, and my virtual network was complete. 
 
-<img width="1046" height="129" alt="Screenshot 2026-10-03 184631" src="https://github.com/user-attachments/assets/b39a1131-ed44-4da5802a-6052507936c3" />
+<img width="1046" height="129" alt="Screenshot 2026-10-03 184631" src="https://github.com/user-attachments/assets/b39a1131-ed44-4da5-802a-6052507936c3" />
 
 ## Connecting VMs to OfficeNet & testing their connection
 
@@ -81,15 +81,15 @@ using the 'ping' command.
 
 A 'ping' command from primary VM to secondary VM:
 
-<img width="526" height="279" alt="Screenshot 2026-10-02 152348" src="https://github.com/user-attachments/assets/483cefa4-4eb3-4ed091a8-fb53e83f872e" />
+<img width="526" height="279" alt="Screenshot 2026-10-02 152348" src="https://github.com/user-attachments/assets/483cefa4-4eb3-4ed0-91a8-fb53e83f872e" />
 
 A 'ping' command from secondary VM to primary VM:
 
-<img width="547" height="381" alt="Screenshot 2026-10-02 152330" src="https://github.com/user-attachments/assets/54b303bb-df4d-4ef3bfc1-6ca33e5e1b37" />
+<img width="547" height="381" alt="Screenshot 2026-10-02 152330" src="https://github.com/user-attachments/assets/54b303bb-df4d-4ef3-bfc1-6ca33e5e1b37" />
 
 A 'ping' command from primary VM to 8.8.8.8:
 
-<img width="523" height="182" alt="Screenshot 2026-10-02 152440" src="https://github.com/user-attachments/assets/77894003-7be0-49dbacf7-70a6a0c1933a" />
+<img width="523" height="182" alt="Screenshot 2026-10-02 152440" src="https://github.com/user-attachments/assets/77894003-7be0-49db-acf7-70a6a0c1933a" />
 
 With my first two pings, I ensured that each machine could see each other and communicate with each other over OfficeNet.
 With my final ping, I made sure that the two machines could actually connect to the internet.
