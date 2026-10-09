@@ -45,7 +45,8 @@ virtual machines from the other over the network. As well as this, it comes with
 Protocol) to copy my custom message file from my first machine to my second one.
 
 In order to install OpenSSH, I ran the commands 'sudo apt update', which updates Ubuntu's list of software, and 'sudo apt install
-openssh-server', which installs OpenSSH. 
+openssh-server', which installs OpenSSH. I have also made sure to add OpenSSH to the list of tools I made use of for my home lab
+projects.
 
 Following my installation of OpenSSH on both of my virtual machines, I ensured that I was using my first machine, and used the
 command 'scp ~/MAIN/newloginmessage.txt 192.168.50.4: ~/MAIN/'. This is the 'scp' command mentioned previously, which I used to copy
