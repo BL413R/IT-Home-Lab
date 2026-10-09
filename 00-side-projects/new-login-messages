@@ -1,0 +1,8 @@
+# Side Project 1 - New Login Messages
+
+While working on my first project, I came up with the idea of making my virtual machines display a custom message at login.
+I decided to move forward with this idea as a side project, because I did not like the login message that came packaged with
+the operating system.
+
+Since I knew that the message I wanted to write was going to be fairly long, I decided to save myself the trouble of typing
+the entire message out a second time by installing OpenSSH,
