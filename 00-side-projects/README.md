@@ -47,9 +47,9 @@ Protocol) to copy my custom message file from my first machine to my second one.
 In order to install OpenSSH, I ran the commands 'sudo apt update', which updates Ubuntu's list of software, and 'sudo apt install
 openssh-server', which installs OpenSSH. 
 
-Following my installation of OpenSSH on both of my virtual machines, I ensured that I using my first machine, and used the command
-'scp ~~/MAIN/newloginmessage.txt 192.168.50.4:~/MAIN/'. This is the 'scp' command mentioned previously, which I used to copy my
-custom message file over to my second machine. 
+Following my installation of OpenSSH on both of my virtual machines, I ensured that I was using my first machine, and used the
+command 'scp ~/MAIN/newloginmessage.txt 192.168.50.4: ~/MAIN/'. This is the 'scp' command mentioned previously, which I used to copy
+my custom message file over to my second machine. 
 
 ## Replacing VM2's login message
 
