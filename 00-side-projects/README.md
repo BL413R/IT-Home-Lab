@@ -31,8 +31,32 @@ of the original login message. However, this time I used the command to copy the
 into the original message's file. This is also useful for preserving my new message as well, because the file remains unaffected by
 the command.
 
+After running that command, I rebooted the virtual machine and confirmed that the change took effect. Success! Now, I can move on to 
+replacing virtual machine 2's login message.
+
 ## Copying my message to VM2
 
+Before I can replace the login message on my second virtual machine, I have to make sure to create the message file. I began by
+replicating the file structure I created on my first machine, and made a folder called MAIN to put my file in. Unfortunately, the
+custom message that I made is fairly long, and I did not want to rewrite the entire message again on the second machine. 
+
+In order to get around this, I took advantage of OpenSSH's capabilities. OpenSSH allows me to connect to and control one of my
+virtual machines from the other over the network. As well as this, it comes with a command that I can use, called 'scp' (Secure Copy
+Protocol) to copy my custom message file from my first machine to my second one.
+
+In order to install OpenSSH, I ran the commands 'sudo apt update', which updates Ubuntu's list of software, and 'sudo apt install
+openssh-server', which installs OpenSSH. 
+
+Following my installation of OpenSSH on both of my virtual machines, I ensured that I using my first machine, and used the command
+'scp ~/MAIN/newloginmessage.txt 192.168.50.4:~/MAIN/'. This is the 'scp' command mentioned previously, which I used to copy my
+custom message file over to my second machine. 
+
 ## Replacing VM2's login message
+
+After confirming that my message was successfully copied over to my second machine, I proceeded to back up the original login
+message, just like I did with the first machine, using 'sudo cp /etc/issue /etc/issue.bak'.
+
+Finally, I replaced the second machine's login message with my custom message using the command 'sudo cp ~/MAIN/newloginmessage.txt
+/etc/issue', and both machines were completely set up with a custom message shown to the user before login.
 
 ## Replacing OpenSSH login messages
