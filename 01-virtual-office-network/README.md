@@ -1,4 +1,4 @@
-# 01 Virtual Office Network - 10/1/26
+# 01 Virtual Office Network - Started 10/1/26
 
 The goal of my first project is to build a small, working "office network" out of virtual machines, which I can use in my future projects.
 I aim to show that I am capable of connecting, testing, and troubleshooting these virtual machines.
