@@ -8,10 +8,10 @@ This comes in the form of models like Claude Sonnet 5.5 as both a tutor as well 
 All of my code is self-written, and I use AI only to explain concepts and suggest ideas.
 
 These home labs will be completed using this list of tools, which are all accessible for free:
-- VirtualBox (10/1/26)
-- Ubuntu (10/1/26)
-- Python (10/1/26)
-- OpenSSH (10/3/26)
+- VirtualBox (Added 10/1/26)
+- Ubuntu (Added 10/1/26)
+- Python (Added 10/1/26)
+- OpenSSH (Added 10/3/26)
 
 As I further my endeavors, I will update this list with any other tools I begin to use, and the start date of me using them.
 
