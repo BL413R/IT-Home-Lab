@@ -11,12 +11,13 @@ These home labs will be completed using this list of tools, which are all access
 - VirtualBox (10/1/26)
 - Ubuntu (10/1/26)
 - Python (10/1/26)
+- OpenSSH (10/3/26)
 
 As I further my endeavors, I will update this list with any other tools I begin to use, and the start date of me using them.
 
 ## Projects
 - Virtual Office Network (Started 10/1/26)
-- System Info Reporter (Target 10/8/26)
+- System Info Reporter (Started 10/8/26)
 - Log Analyzer (Target 10/15/26)
 - User Onboarding Automation (Target 10/22/26)
 - Help Desk Ticket Tracker (Target 10/29/26)
