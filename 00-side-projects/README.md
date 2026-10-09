@@ -19,7 +19,17 @@ my login message from one of the games I have been enjoying recently. Once I fin
 
 ## Replacing VM1's login message
 
+Once I had my new login message written, it was time for me to turn my attention towards the original. The login message for Ubuntu
+Server 26.04 is saved in /etc/issue. I needed to make sure that I saved a backup of the original file, just in case something went
+wrong during my experimentation.
 
+I accomplished this by running the command 'sudo cp /etc/issue /etc/issue.bak'. This command copied the content of the original login
+message and pasted it into a new file understandably named 'issue.bak'.
+
+From there, I ran the command 'sudo cp ~/MAIN/newloginmessage.txt /etc/issue'. This is the same command that I used to make a backup
+of the original login message. However, this time I used the command to copy the contents of my new login message and paste them
+into the original message's file. This is also useful for preserving my new message as well, because the file remains unaffected by
+the command.
 
 ## Copying my message to VM2
 
