@@ -18,10 +18,10 @@ As I further my endeavors, I will update this list with any other tools I begin 
 ## Projects
 - Virtual Office Network (Finished 10/3/26)
 - System Info Reporter (Started 10/8/26)
-- Log Analyzer (Target 10/15/26)
-- User Onboarding Automation (Target 10/22/26)
-- Help Desk Ticket Tracker (Target 10/29/26)
-- Active Directory Domain (Target 11/12/26)
+- Log Analyzer ()
+- User Onboarding Automation ()
+- Help Desk Ticket Tracker ()
+- Active Directory Domain ()
 
 ## Side Projects
 - New Login Messages (Finished 10/3/26)
